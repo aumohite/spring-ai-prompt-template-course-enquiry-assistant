@@ -32,7 +32,7 @@ public class CourseEnquiryController {
 
 	//usage:
 	//http://localhost:8088/course-enquiries/DIRECT
-	//http://localhost:8088/course-enquiries/DIRECT
+	//http://localhost:8088/course-enquiries/TEMPLATE
 	@PostMapping("/{mode}")
 	public String generateResponse(@PathVariable ProcessingMode mode, 
 			@RequestBody CourseEnquiry courseEnquiry) {
